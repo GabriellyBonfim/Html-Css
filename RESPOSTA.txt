@@ -1,0 +1,48 @@
+*TESTE SEUS CONHECIMENTOS*
+1 C
+2 A
+3 A
+4 B
+5 A
+6 C
+7 C
+8 B
+9 C
+10 C
+ 
+
+*SEGUNDO DOC*
+1 A
+2 C
+3 B
+4 B
+5 B
+6 C
+7 C
+8 D
+9 B
+10 C
+
+*TERCEIRO DOC*
+1 C
+2 B
+3 A 
+4 D
+5 B
+6 A
+7 B
+8 B
+9 D
+10 A
+
+*QUARTO DOC*
+1 A
+2 A
+3 C
+4 C
+5 A
+6 C
+7 A
+8 B
+9 A
+10 A

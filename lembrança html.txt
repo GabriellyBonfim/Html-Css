@@ -1,0 +1,14 @@
+<!DOCTYPE>
+<html lang="pt-br"
+<body>
+<head>
+        <CHARGE/8
+
+<h1 Meu primeiro site <3 h1>
+<h2 Está fofinho né?! h2>
+<p> Um começo é <strong> um <strong> começo! <p>
+Muito programadora!
+<p/p> <img scr=gatop.png =
+
+<body> 
+<head>
