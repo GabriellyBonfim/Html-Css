@@ -1,0 +1,54 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+    background-color: rgb(53, 27, 27);
+}
+ 
+main{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+label{
+    font-weight: 550;
+    padding: 5px 0px 0px 10px;
+    display: inline-block;
+    width: 80px;
+}
+
+input{
+    height: 30px;
+    margin: 5px;
+}
+
+.data{
+    width: 150px;
+}
+
+.inputpessoais{
+    width: 150px;
+}
+
+
+fieldset{
+    margin: 10px;
+}
+
+
+
