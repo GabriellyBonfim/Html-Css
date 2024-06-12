@@ -1,0 +1,73 @@
+@charset "UTF-8"
+*{
+
+}
+
+body{
+
+}
+
+img:hover {
+    left: 50%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px black;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Imagens/imagens/tela-home.jpg);
+    background-size: cover;
+}
+
+a{
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgtela{
+    width: 100%;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgtela:hover{
+    border: none;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.bodytela{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-size: none;
+}
+
+p{
+    margin-top: -4px;
+    display: block;
+    background-color: red;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.link:active{
+    color: white;
+    text-decoration: none;
+}
