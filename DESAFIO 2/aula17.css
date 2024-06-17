@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*{
+  margin: 0px;
+  padding:0px  
+}
+
+.conteiner{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+    align-items: baseline;
+}
+
+.itens{
+    background-color: white;
+    border: 0.1px solid grey;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    flex: auto;
+    flex-grow: 1;
+    
+}
+
+.ordem1{
+ order: 1;
+ flex-shrink: 1;
+}
+
+.ordem2{
+    order: 1;
+    flex-shrink: 1;
+}
+
+.ordem3{
+    order: 1;
+    flex-shrink: 1;
+}
+
+.ordem4{
+
+}
+
+.ordem5{
+
+}
+
+.ordem6{
+
+}
+
+.ordem7{
+
+}
+
+.ordem8{
+
+}

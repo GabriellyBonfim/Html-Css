@@ -1,0 +1,29 @@
+@charset "utf-8";
+*{
+margin: 10px;
+padding: 10px;
+background-color: rgb(209, 204, 158);
+}
+
+.mãe{
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    
+}
+
+
+
+
+.filhas{
+    background-color: royalblue;
+    margin: 20px;
+    padding: 20px;
+    flex: auto;
+    border: 0.1px solid white;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
