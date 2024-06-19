@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.Mãe{
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "header header header header header"
+    "aside  main   main   main   main"
+    "footer footer footer footer null";
+
+}
+
+.header{
+    grid-area: header;
+    background-color: darkblue;
+    grid-row: auto;
+
+}
+
+.main{
+    grid-area: main;
+    background-color: darkmagenta;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: darkslateblue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: yellow;
+}
