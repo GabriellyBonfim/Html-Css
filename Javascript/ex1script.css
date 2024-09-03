@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grupo{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+#itens{
+    background-color: black;
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+    width: 100px;
+    height: 100px;
+    flex: auto;
+    color: azure;
+}
+

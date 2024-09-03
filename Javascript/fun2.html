@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Exemplo 2</title>
+</head>
+<body>
+    <div id="area">
+        Interaja!!
+    </div>
+
+    <script>
+        var a = window.document.getElementById ('area')
+        a.addEventListener ('click', clicar )
+        a.addEventListener ('mouseenter', entrar)
+        a.addEventListener ('mouseout', sair)
+
+        function clicar () {
+            a.innerText = 'Clicou!'
+            a.style.background = 'yellow'
+        }
+        function entrar () {    
+            a.innerText = 'Entrou <3'
+            a.style.background = 'blue'
+        }
+        function sair (){
+            a.innerText = 'Saiu..'
+            a.style.backgroundColor = 'red'
+        }
+    </script>
+</body>
+</html>
