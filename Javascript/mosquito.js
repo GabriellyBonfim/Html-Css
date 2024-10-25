@@ -1,4 +1,5 @@
 let altura, largura = 0;
+let vidas = 1;
 
 function ajustaTela() {
     altura = window.innerHeight
@@ -9,6 +10,21 @@ function ajustaTela() {
 ajustaTela()
 
 function posRandomica(){
+
+     if(document.getElementById('tempoMosquito')){
+        document.getElementById('tempoMosquito'). remove ()
+       
+     if(vidas >3){
+        window.location.href = "finaljogo.html"
+         }
+     else{
+         document.getElementById('v' + vidas).src="imagens/coracao_vazio.png"
+         vidas++
+         }   
+     }
+
+
+
 let posx = Math.floor(Math.random() * largura) -90;
 let posy = Math.floor(Math.random() * altura) -90;
 
@@ -19,10 +35,15 @@ console.log (posx,posy);
 
 let mosquito = document.createElement('img')
 mosquito.src= 'imagens/mosquito.png'
-mosquito.className = tamanhoMosquito() + ladoAleatorio ()
+mosquito.className = tamanhoMosquito() + ' ' + ladoAleatorio()
 mosquito.style.left = posx + 'px'
 mosquito.style.top = posy + 'px'
 mosquito.style.position = 'absolute'
+mosquito.id = 'tempoMosquito'
+
+mosquito.onclick= function(){
+    this.remove()
+}
 
 document.body.appendChild (mosquito)
 
