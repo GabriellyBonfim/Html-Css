@@ -51,7 +51,7 @@ mysqli_query($link, "INSERT INTO tb_contatos (NOME, TELEFONES, EMAILS) VALEUS('$
                <th>Adicionar</th>
             </tr>
         </thead>       
-    </table>
+    </table> 
         
 
 
